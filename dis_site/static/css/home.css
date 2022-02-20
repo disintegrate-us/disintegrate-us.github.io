@@ -1,0 +1,84 @@
+html, body {
+  padding: 0px;
+  margin: 0px;
+  font-size: 115%;
+  /*background-image: url( "../images/garage.jpg" );*/
+  background-color: #1c1c1c;
+  overflow-x: hidden;
+  font-family: "Avalanche", sans-serif;
+  font-weight: 150;
+  font-style: normal;
+
+}
+
+.header {
+  background-color: black;
+  color: white;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  font-size: 200%;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  margin-top: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 30px;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 300px;
+  width: 25%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-color: black;
+  border-radius: 10px;
+  border-width: 2px;
+  padding-bottom: 10px;
+}
+
+.product-container-name {
+  width: 100%;
+  text-align: center;
+}
+
+.product-container-desc {
+  width: 100%;
+  text-align: center;
+}
+
+.product-container-price {
+  width: 100%;
+  text-align: center;
+}
+
+.product-container-img {
+  display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-container img {
+  width: 100%;
+  height: auto;
+
+}
