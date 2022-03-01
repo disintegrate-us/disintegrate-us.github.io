@@ -1,1 +1,1 @@
-web: gunicorn run:app
+web: gunicorn dis_site:app
