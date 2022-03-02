@@ -1,1 +1,1 @@
-web: gunicorn wsgi:app
+web: gunicorn dis_site.init:app
