@@ -20,5 +20,4 @@ loginManager.session_protection = 'strong'
 loginManager.init_app(app)
 
 
-
 from dis_site import routes
