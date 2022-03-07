@@ -11,8 +11,6 @@ def login():
     loginForm = LoginPage_LoginForm(request.form)
     if request.method == 'POST' and loginForm.validate():
         user = User.query.first()
-        print(user)
-        print(user.checkPasswordHash(password=loginForm.password.data))
         if(user.checkPasswordHash(loginForm.password.data)):
             login_user(user=user, remember=False)
             return redirect(url_for("home"))

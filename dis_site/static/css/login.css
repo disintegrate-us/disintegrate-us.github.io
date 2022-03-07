@@ -3,6 +3,10 @@ html, body {
   margin: 0px;
   font-size: 20px;
   background-color: black;
+  background-image: url("../images/gifs/pass.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   height: 100vh;
 }
 
@@ -34,7 +38,7 @@ html, body {
 
 #submitButton {
   border-width: 0px;
-
+  border-radius: 5px;
 }
 #submitButton:focus {
   border-color: white;
@@ -44,7 +48,8 @@ html, body {
 
 #passField {
   border-width: 0px;
-
+  border-radius: 5px;
+  padding: 5px;
 }
 
 #passField:focus {
