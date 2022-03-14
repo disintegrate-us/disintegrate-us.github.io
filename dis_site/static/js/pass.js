@@ -1,0 +1,1 @@
+$('audio').prop(volume, 1);
