@@ -1,1 +1,1 @@
-web: gunicorn dis_site.init:app
+web: gunicorn --chdir dis_site run:app
